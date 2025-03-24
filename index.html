@@ -18,29 +18,53 @@
             color: white;
             padding: 20px;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
         main {
-            padding: 20px;
+            padding: 40px 20px;
         }
         .unfinished {
             background-color: #ffcc00;
             color: black;
-            padding: 10px;
-            border-radius: 5px;
-            font-size: 1.2em;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 1.1em;
             text-align: center;
+            margin-bottom: 20px;
         }
         footer {
             background-color: #6a0dad;
             color: white;
             text-align: center;
-            padding: 10px;
+            padding: 12px;
             position: fixed;
             bottom: 0;
             width: 100%;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
         }
         h1, h2 {
             color: #ffffff;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        ul {
+            font-size: 1.1em;
+            list-style-type: disc;
+            margin-left: 40px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -66,12 +90,15 @@
         </ul>
 
         <h2>How do you do these steps?</h2>
-        <p>Follow this Youtube tutorial! (https://www.youtube.com/watch?v=2bvJPK0dzFY)</p>
-        <p>(You need to replace the installing haxelib dependencies to launching the setup file on /setup!)</p>
+        <p>Follow this YouTube tutorial: <a href="https://www.youtube.com/watch?v=2bvJPK0dzFY" target="_blank">How to get started with Star Engine</a></p>
+        <p>(You need to replace the step of installing haxelib dependencies with launching the setup file in the /setup folder!)</p>
 
         <h2>Contributing</h2>
         <p>If you'd like to contribute to Star Engine, please fork the repository and submit pull requests. We appreciate your help!</p>
     </main>
 
+    <footer>
+        <p>Star Engine Documentation - © 2025</p>
+    </footer>
 </body>
 </html>
